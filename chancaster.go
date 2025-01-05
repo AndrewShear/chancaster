@@ -52,6 +52,15 @@ func (c *ChanCaster[K, T]) Add(key K, fn ChanFunc) error {
 	return nil
 }
 
+// All returns a slice containing all keys associated with channels in the ChanCaster instance.
+func (c *ChanCaster[K, T]) All() []K {
+	all := make([]K, 0, len(c.chans))
+	for key := range c.chans {
+		all = append(all, key)
+	}
+	return all
+}
+
 // Get retrieves the channel associated with the provided key.
 // If the context is already canceled, an error is returned.
 // If the key is not found, a nil channel and CHAN_NOT_FOUND error are returned.
