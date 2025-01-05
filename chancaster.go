@@ -63,6 +63,19 @@ func (c *ChanCaster[K, T]) Get(key K) (chan T, error) {
 	return c.chans[key], nil
 }
 
+// Publish sends the provided data to the channel associated with the given key.
+//
+// If no channel is found for the specified key, a ChanNotFound error is returned.
+func (c *ChanCaster[K, T]) Publish(key K, data T) error {
+	ch, ok := c.chans[key]
+	if !ok {
+		return fmt.Errorf("%s", ChanNotFound)
+	}
+
+	ch <- data
+	return nil
+}
+
 // Close closes the channel associated with the provided key and removes it from the map.
 // If the key is not found, a CHAN_NOT_FOUND error is returned.
 func (c *ChanCaster[K, T]) Close(key K) error {
