@@ -1,0 +1,10 @@
+github.com/AndrewShear/chancaster v0.0.0-20250105175110-b76e9835f844 h1:GuXQ7SAM/4q1TbIVfWpJfpuyhwmFygPLI6WmWVAN2XQ=
+github.com/AndrewShear/chancaster v0.0.0-20250105175110-b76e9835f844/go.mod h1:PXgXwQES9XRBWFbOUPaWt0j5zibq/a2TK21yTTrjfMI=
+github.com/AndrewShear/chancaster v0.1.0 h1:ZoQ5TuxmWMc0NJ+jkDX+qljLsSUo3Nd2Y0nBgyy/aYs=
+github.com/AndrewShear/chancaster v0.1.0/go.mod h1:qtupHuNmjEmTr+plXYmWUiDX05vxJytDsv3LnUfr8eI=
+github.com/AndrewShear/chancaster v0.1.1 h1:phNXPJoZsunvigQizU/6q9sBRkYWxAvmBtN/7Ok5wwE=
+github.com/AndrewShear/chancaster v0.1.1/go.mod h1:qtupHuNmjEmTr+plXYmWUiDX05vxJytDsv3LnUfr8eI=
+github.com/AndrewShear/chancaster v0.1.2 h1:wSFfucZFcDvhToLRmBGDU4LZF6JYS6KBntJDwM1RgFE=
+github.com/AndrewShear/chancaster v0.1.2/go.mod h1:qtupHuNmjEmTr+plXYmWUiDX05vxJytDsv3LnUfr8eI=
+golang.org/x/sync v0.10.0 h1:3NQrjDixjgGwUOCaF8w2+VYHv0Ve/vGYSbdkTa98gmQ=
+golang.org/x/sync v0.10.0/go.mod h1:Czt+wKu1gCyEFDUtn0jG5QVvpJ6rzVqr5aXyt9drQfk=
